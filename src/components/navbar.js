@@ -34,7 +34,7 @@ export default function ButtonAppBar() {
             Home
           </Typography>
           <Typography variant="h6" className={classes.title}>
-            Skill-Set
+            Skill
           </Typography>
           <Typography variant="h6" className={classes.title}>
             Projects
