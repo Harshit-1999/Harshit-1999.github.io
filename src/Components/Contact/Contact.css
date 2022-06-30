@@ -1,0 +1,8 @@
+.Contact {
+  position: fixed;
+  bottom: 2px;
+  right: 100px;
+}
+.SocialMedia a img:hover {
+  width: 45px;
+}

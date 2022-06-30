@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  width: 100;
+  margin: 30px;
+}
+
+.description {
+  /* background-color: red; */
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.image {
+  /* background-color: blue; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.cardImageDiv {
+  padding: 20px;
+}
+
+.cardImage {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-top: auto;
+  opacity: 1;
+}
+
+.cardText {
+  padding: 10px 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  padding: 15px 50px;
+  margin: 10px;
+  border: solid 2px palevioletred;
+  background: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: palevioletred;
+}
+
+.devicon {
+  max-width: 10em;
+  height: 35px;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    color: ivory;
+  }
+  .description {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    opacity: 1;
+  }
+}
